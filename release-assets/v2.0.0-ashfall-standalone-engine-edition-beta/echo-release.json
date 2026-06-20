@@ -170,5 +170,9 @@
       "trust": "official",
       "required": true
     }
-  ]
+  ],
+  "manifestAsset": "ashfall-standalone-engine-edition-beta-2.0.0-beta.2.pack.json",
+  "artifactAsset": "ashfall-standalone-engine-edition-2.0.0-beta.2.zip",
+  "artifactSha256": "5abf89a929c8c818515c76a800708d58e1fb6d3610cb248f4c5ce2867a4b2fb8",
+  "artifactSize": 252791
 }

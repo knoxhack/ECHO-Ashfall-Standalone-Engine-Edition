@@ -20,4 +20,6 @@ release-assets/v2.0.0-ashfall-standalone-engine-edition-beta/release-audit.json
 release-assets/v2.0.0-ashfall-standalone-engine-edition-beta/checksums.txt
 ```
 
-The release metadata records the engine source revision as `ECHO-Standalone-Engine 1b347039d9f895fc6cfa2049151d2315b9b3e737, 2026-06-20`.
+The latest staged release metadata records the engine source revision as `ECHO-Standalone-Engine 50e039a255b62d3ce04acd80bb9b90dd5f0d5742, 2026-06-20`.
+
+The beta.4 payload reports 18 modules, 133 graph nodes, 109 graph edges, 16 features, and zero unresolved references.

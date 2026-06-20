@@ -1,0 +1,270 @@
+{
+  "schemaVersion": "echo.release.v1",
+  "id": "ashfall-standalone-engine-edition",
+  "name": "Ashfall Standalone Engine Edition",
+  "version": "2.0.0-beta.2",
+  "releaseTag": "v2.0.0-ashfall-standalone-engine-edition-beta.4",
+  "channel": "beta",
+  "validation": "warning",
+  "warningGated": true,
+  "warningReason": "Installable for standalone engine verification; graph-first vertical slice expanded to 18 modules; full Ashfall gameplay parity is not claimed.",
+  "sourceRepo": "knoxhack/ECHO-Ashfall-Standalone-Engine-Edition",
+  "engine": {
+    "productId": "echo-standalone-engine",
+    "sourceRepo": "knoxhack/ECHO-Standalone-Engine",
+    "releaseTag": "v2.0.0-standalone-engine-beta.4",
+    "commitSha": "50e039a255b62d3ce04acd80bb9b90dd5f0d5742",
+    "sourceRevision": "ECHO-Standalone-Engine 50e039a255b62d3ce04acd80bb9b90dd5f0d5742, 2026-06-20T15:31:04-04:00",
+    "artifact": {
+      "file": "echo-standalone-engine-2.0.0-beta.2.jar",
+      "sha256": "cbbfa56678165704aaa6c1bff6013bc1c18f299f06b60ed0d2da2ef1a29bea7c",
+      "size": 203765
+    },
+    "apiArtifact": {
+      "file": "echo-engine-api-2.0.0-beta.2.jar",
+      "sha256": "3c2bf9fa07a8c71b3146c3a3a66197ff0c61e41efa2d640b9193681191b5536a",
+      "size": 31989
+    }
+  },
+  "runtime": {
+    "id": "echo-standalone-engine",
+    "target": "echo_runtime_standalone",
+    "version": "2.0.0-beta.2",
+    "requiredJava": "21+"
+  },
+  "artifacts": {
+    "pack": {
+      "file": "ashfall-standalone-engine-edition-2.0.0-beta.2.zip",
+      "sha256": "87237a28a26624962889343feefea5edcfc7343b0bd71c44f11c9434a339f3d8",
+      "size": 276403,
+      "type": "zip"
+    },
+    "manifest": {
+      "file": "ashfall-standalone-engine-edition-beta-2.0.0-beta.2.pack.json",
+      "sha256": "a684f89afee740f4e22ba528c8c3d591427ebc2fa20fb6a41b3df009aceb75ba",
+      "size": 22451,
+      "type": "pack-manifest"
+    },
+    "contentGraphEvidence": {
+      "file": "content-graph-evidence.json",
+      "sha256": "3abe68cc999c9f913a4c91b118f8a5dd49061bb7f8794a17d61d671655a809e9",
+      "size": 8003,
+      "status": "PASS",
+      "modules": 18,
+      "nodes": 133,
+      "edges": 109,
+      "features": 16
+    },
+    "installedChecksums": {
+      "file": "checksums.sha256",
+      "sha256": "5044e54a4b1f91ce4a1e4fb6400b1450d1b1c71df596e213588603bcff0cc0da",
+      "size": 2463
+    }
+  },
+  "graphEvidence": {
+    "status": "PASS",
+    "canonical": true,
+    "runtimeTarget": "echo_runtime_standalone",
+    "moduleCount": 18,
+    "nodeCount": 133,
+    "edgeCount": 109,
+    "featureCount": 16,
+    "unresolvedReferenceCount": 0,
+    "exportMappingCounts": {
+      "echo_native": 133,
+      "neoforge": 133,
+      "echo_runtime_standalone": 133
+    },
+    "crossRuntimeTargets": [
+      "echo_native",
+      "neoforge",
+      "echo_runtime_standalone"
+    ]
+  },
+  "moduleFiles": [
+    {
+      "moduleId": "echoadaptercore",
+      "version": "1.0.0",
+      "artifactFamily": "standalone",
+      "file": "mods/echoadaptercore-1.0.0-standalone.jar",
+      "sha256": "e3b484796afacfd1300f9ea5554014cfead62e9211292b344e49c5ff579589df",
+      "size": 5120,
+      "trust": "official",
+      "required": true
+    },
+    {
+      "moduleId": "echoashfallprotocol",
+      "version": "1.0.0",
+      "artifactFamily": "standalone",
+      "file": "mods/echoashfallprotocol-1.0.0-standalone.jar",
+      "sha256": "6696f7ff39b31e4461c21d8ab3f449cd36047bf8699e6078f06af7100b20006e",
+      "size": 26943,
+      "trust": "official",
+      "required": true
+    },
+    {
+      "moduleId": "echocommonloot",
+      "version": "1.0.0",
+      "artifactFamily": "standalone",
+      "file": "mods/echocommonloot-1.0.0-standalone.jar",
+      "sha256": "3c51cf089d2fef08465960eec52d768011cc9f6281df7ef0d24d4cea7d9d69d0",
+      "size": 3122,
+      "trust": "official",
+      "required": true
+    },
+    {
+      "moduleId": "echocontentcore",
+      "version": "1.0.0",
+      "artifactFamily": "standalone",
+      "file": "mods/echocontentcore-1.0.0-standalone.jar",
+      "sha256": "e6fdee7d2dcc647ff1444573996db10b1a67a6ca2bfccbe3e98ab438a045740c",
+      "size": 3950,
+      "trust": "official",
+      "required": true
+    },
+    {
+      "moduleId": "echocore",
+      "version": "1.0.0",
+      "artifactFamily": "standalone",
+      "file": "mods/echocore-1.0.0-standalone.jar",
+      "sha256": "a2b28345992a43b56f44d5ec46df32ad3930799cdbbc5a3663fc5a8887367d24",
+      "size": 4320,
+      "trust": "official",
+      "required": true
+    },
+    {
+      "moduleId": "echocreatureroles",
+      "version": "1.0.0",
+      "artifactFamily": "standalone",
+      "file": "mods/echocreatureroles-1.0.0-standalone.jar",
+      "sha256": "ec31f99f95122959e739e201de9bbd52c61ad10a3b1faf0303f3c148c83c8cf2",
+      "size": 3142,
+      "trust": "official",
+      "required": true
+    },
+    {
+      "moduleId": "echofoundationcore",
+      "version": "1.0.0",
+      "artifactFamily": "standalone",
+      "file": "mods/echofoundationcore-1.0.0-standalone.jar",
+      "sha256": "f4553c8768ddd7ca51ff15eb4805f4db771d308e9eb1cce7e6628fd847faace3",
+      "size": 3205,
+      "trust": "official",
+      "required": true
+    },
+    {
+      "moduleId": "echohudcore",
+      "version": "1.0.0",
+      "artifactFamily": "standalone",
+      "file": "mods/echohudcore-1.0.0-standalone.jar",
+      "sha256": "ef483238edef4a69fdd5ddbe6031fa9effc4454f53b80391a127577f5a82818c",
+      "size": 4338,
+      "trust": "official",
+      "required": true
+    },
+    {
+      "moduleId": "echomaterialcore",
+      "version": "1.0.0",
+      "artifactFamily": "standalone",
+      "file": "mods/echomaterialcore-1.0.0-standalone.jar",
+      "sha256": "56748d38a80b4e1010eed5dbcb7a28668728c75c23fbe6be183448cb71b46d7d",
+      "size": 3220,
+      "trust": "official",
+      "required": true
+    },
+    {
+      "moduleId": "echoplatformcore",
+      "version": "1.0.0",
+      "artifactFamily": "standalone",
+      "file": "mods/echoplatformcore-1.0.0-standalone.jar",
+      "sha256": "c26fbc0b7831255f0f20657f9bd36d3d7295957b0802a8cc0895691a3e429b1c",
+      "size": 3699,
+      "trust": "official",
+      "required": true
+    },
+    {
+      "moduleId": "echoschemacore",
+      "version": "1.0.0",
+      "artifactFamily": "standalone",
+      "file": "mods/echoschemacore-1.0.0-standalone.jar",
+      "sha256": "e071fcbc4adc43238369400e0b070430c593d0b92939bb762f8155df727dcf21",
+      "size": 3688,
+      "trust": "official",
+      "required": true
+    },
+    {
+      "moduleId": "echoscreencore",
+      "version": "1.0.0",
+      "artifactFamily": "standalone",
+      "file": "mods/echoscreencore-1.0.0-standalone.jar",
+      "sha256": "7a9ba1b22a1538923032fac586e533d7616852c51bec8743b0d7931e496fcd1a",
+      "size": 3169,
+      "trust": "official",
+      "required": true
+    },
+    {
+      "moduleId": "echostationcore",
+      "version": "1.0.0",
+      "artifactFamily": "standalone",
+      "file": "mods/echostationcore-1.0.0-standalone.jar",
+      "sha256": "c6621129fefda5c16dd069650b0ab551efabedfdf97ec22a978a852657c286de",
+      "size": 3371,
+      "trust": "official",
+      "required": true
+    },
+    {
+      "moduleId": "echoterminal",
+      "version": "1.0.0",
+      "artifactFamily": "standalone",
+      "file": "mods/echoterminal-1.0.0-standalone.jar",
+      "sha256": "522f07251cb352e97ddf1bdb159efcba0ac6aae5c1497f7a3a5acefb137380e5",
+      "size": 3428,
+      "trust": "official",
+      "required": true
+    },
+    {
+      "moduleId": "echotoolcore",
+      "version": "1.0.0",
+      "artifactFamily": "standalone",
+      "file": "mods/echotoolcore-1.0.0-standalone.jar",
+      "sha256": "38ed1458c5d8708c5f9d73ea618a2ad28986b1712e1b0320fa5833a0e87134d9",
+      "size": 3299,
+      "trust": "official",
+      "required": true
+    },
+    {
+      "moduleId": "echovalidationcore",
+      "version": "1.0.0",
+      "artifactFamily": "standalone",
+      "file": "mods/echovalidationcore-1.0.0-standalone.jar",
+      "sha256": "a5fe3027c873e9cad0e2983503081f9e1752bfdc3fb5d8ac749a41ab0b0f5653",
+      "size": 3805,
+      "trust": "official",
+      "required": true
+    },
+    {
+      "moduleId": "echoweathercore",
+      "version": "1.0.0",
+      "artifactFamily": "standalone",
+      "file": "mods/echoweathercore-1.0.0-standalone.jar",
+      "sha256": "09fb4acd601b4e4342d2e6208b4cc2a024ac12e83a570cc4e6b3f36f6622aed3",
+      "size": 3160,
+      "trust": "official",
+      "required": true
+    },
+    {
+      "moduleId": "echoworldstarter",
+      "version": "1.0.0",
+      "artifactFamily": "standalone",
+      "file": "mods/echoworldstarter-1.0.0-standalone.jar",
+      "sha256": "e1728dea5891be56ed17bb594f35f17614944cbab4bba8523c94634c37662901",
+      "size": 3482,
+      "trust": "official",
+      "required": true
+    }
+  ],
+  "manifestAsset": "ashfall-standalone-engine-edition-beta-2.0.0-beta.2.pack.json",
+  "artifactAsset": "ashfall-standalone-engine-edition-2.0.0-beta.2.zip",
+  "artifactSha256": "87237a28a26624962889343feefea5edcfc7343b0bd71c44f11c9434a339f3d8",
+  "artifactSize": 276403
+}

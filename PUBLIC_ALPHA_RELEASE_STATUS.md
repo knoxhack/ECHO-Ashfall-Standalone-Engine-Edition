@@ -25,4 +25,4 @@ This lane can move beyond warning status only after public release bytes, instal
 
 See `release-assets/v2.0.0-ashfall-standalone-engine-edition-beta/release-audit.json`.
 
-Latest staged expansion evidence is under `release-assets/v2.0.0-ashfall-standalone-engine-edition-beta.4/release-audit.json`.
+Latest staged expansion evidence is under `release-assets/v2.0.0-ashfall-standalone-engine-edition-beta.5/release-audit.json`.

@@ -9,7 +9,7 @@ Ashfall Standalone Engine Edition currently provides a playable verification sli
 - Content graph evidence reports PASS.
 - AdapterCore accepts canonical runtime bridge mappings.
 - Headless smoke creates, saves, reloads, and verifies world content identity.
-- Phase 5 graph expansion includes the 18-module standalone verification slice.
+- Phase 5 graph expansion includes the 19-module standalone verification slice, including graph-only `echohealthcore` coverage.
 
 ## Not Claimed
 

@@ -13,7 +13,7 @@ This repo stages release assets and public docs for a side-by-side verification 
 Staged assets:
 
 ```text
-release-assets/v2.0.0-ashfall-standalone-engine-edition-beta.4/
+release-assets/v2.0.0-ashfall-standalone-engine-edition-beta.5/
 ```
 
 Primary assets:
@@ -37,7 +37,7 @@ Primary assets:
 
 ## Scope
 
-This beta is a graph-first playable vertical slice for runtime, install, repair, launch, and content graph evidence. It includes the current 18-module standalone verification slice and preserves strict artifact and content graph behavior.
+This beta is a graph-first playable vertical slice for runtime, install, repair, launch, and content graph evidence. It includes the current 19-module standalone verification slice and preserves strict artifact and content graph behavior.
 
 Full Ashfall gameplay parity is not claimed yet.
 

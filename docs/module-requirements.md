@@ -1,6 +1,6 @@
 # Module Requirements
 
-The beta carries the current 18-module standalone verification slice.
+The beta carries the current 19-module standalone verification slice.
 
 Required module artifacts use artifact family `standalone` and install under `mods/`.
 
@@ -13,6 +13,7 @@ Required module artifacts use artifact family `standalone` and install under `mo
 - `echocore`
 - `echocreatureroles`
 - `echofoundationcore`
+- `echohealthcore`
 - `echohudcore`
 - `echomaterialcore`
 - `echoplatformcore`
@@ -25,7 +26,7 @@ Required module artifacts use artifact family `standalone` and install under `mo
 - `echoweathercore`
 - `echoworldstarter`
 
-The six added Phase 5 modules are graph-only Engine imports from ECHO-Modules release graph resources. Their old executable entrypoints are stripped so the standalone engine validates their content graph contracts without loading legacy runtime code.
+The seven added Phase 5 modules are graph-only Engine imports from ECHO-Modules release graph resources. Their old executable entrypoints are stripped so the standalone engine validates their content graph contracts without loading legacy runtime code.
 
 ## Strictness
 

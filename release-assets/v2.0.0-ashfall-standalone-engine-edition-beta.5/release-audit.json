@@ -1,0 +1,52 @@
+﻿{
+    "schemaVersion":  "echo.release_audit.v1",
+    "id":  "ashfall-standalone-engine-edition",
+    "version":  "2.0.0-beta.2",
+    "releaseTag":  "v2.0.0-ashfall-standalone-engine-edition-beta.5",
+    "status":  "PASS_WITH_WARNINGS",
+    "validation":  "warning",
+    "checks":  [
+                   {
+                       "id":  "java-21-build",
+                       "name":  "Java 21 build",
+                       "status":  "PASS",
+                       "evidence":  "scripts/build.ps1 completed for ECHO-Standalone-Engine 759393c HealthCore expansion commit"
+                   },
+                   {
+                       "id":  "xlint-all-werror",
+                       "name":  "-Xlint:all -Werror",
+                       "status":  "PASS",
+                       "evidence":  "Engine, API, modules, and tests compiled with javac --release 21 -Xlint:all -Werror"
+                   },
+                   {
+                       "id":  "headless-smoke",
+                       "name":  "Headless smoke",
+                       "status":  "PASS",
+                       "evidence":  "Two deterministic --headless-smoke runs completed during engine build"
+                   },
+                   {
+                       "id":  "content-graph-evidence",
+                       "name":  "Content graph evidence",
+                       "status":  "PASS",
+                       "evidence":  "content-graph-evidence.json reports PASS with 19 modules, 140 nodes, 110 edges, 16 features, and 0 unresolved references"
+                   },
+                   {
+                       "id":  "adaptercore-audit",
+                       "name":  "AdapterCore audit",
+                       "status":  "PASS",
+                       "evidence":  "AdapterCore canonical runtime bridge reported ready with zero rejected descriptors in headless smoke"
+                   },
+                   {
+                       "id":  "phase5-healthcore-expansion",
+                       "name":  "Phase 5 HealthCore graph expansion",
+                       "status":  "PASS",
+                       "evidence":  "echohealthcore was imported as graph-only Engine slice coverage with executable entrypoint stripped"
+                   },
+                   {
+                       "id":  "gameplay-parity",
+                       "name":  "Gameplay parity",
+                       "status":  "NOT_CLAIMED",
+                       "evidence":  "Graph-first playable vertical slice only; full Ashfall parity remains future evidence"
+                   }
+               ]
+}

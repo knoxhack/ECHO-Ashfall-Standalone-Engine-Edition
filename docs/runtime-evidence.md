@@ -20,4 +20,4 @@ release-assets/v2.0.0-ashfall-standalone-engine-edition-beta/release-audit.json
 release-assets/v2.0.0-ashfall-standalone-engine-edition-beta/checksums.txt
 ```
 
-The release metadata records the engine source revision as `ECHO-Standalone-Engine 5fe9e59d87a54ccbc4f8310d18232042fafaf8f7, 2026-06-20`.
+The release metadata records the engine source revision as `ECHO-Standalone-Engine 1b347039d9f895fc6cfa2049151d2315b9b3e737, 2026-06-20`.

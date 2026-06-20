@@ -11,8 +11,8 @@
   "engine": {
     "productId": "echo-standalone-engine",
     "sourceRepo": "knoxhack/ECHO-Standalone-Engine",
-    "commitSha": "5fe9e59d87a54ccbc4f8310d18232042fafaf8f7",
-    "sourceRevision": "ECHO-Standalone-Engine 5fe9e59d87a54ccbc4f8310d18232042fafaf8f7, 2026-06-20",
+    "commitSha": "1b347039d9f895fc6cfa2049151d2315b9b3e737",
+    "sourceRevision": "ECHO-Standalone-Engine 1b347039d9f895fc6cfa2049151d2315b9b3e737, 2026-06-20",
     "artifact": {
       "file": "echo-standalone-engine-2.0.0-beta.2.jar",
       "sha256": "cbbfa56678165704aaa6c1bff6013bc1c18f299f06b60ed0d2da2ef1a29bea7c",
@@ -28,13 +28,13 @@
   "artifacts": {
     "pack": {
       "file": "ashfall-standalone-engine-edition-2.0.0-beta.2.zip",
-      "sha256": "5abf89a929c8c818515c76a800708d58e1fb6d3610cb248f4c5ce2867a4b2fb8",
-      "size": 252791,
+      "sha256": "a9dd8b956e47a959dd4173f996a8ede80be102e6ff281c19d00720f6262f4407",
+      "size": 255102,
       "type": "zip"
     },
     "manifest": {
       "file": "ashfall-standalone-engine-edition-beta-2.0.0-beta.2.pack.json",
-      "sha256": "ce5280c169b34043ae4f8b232c9f14101c4506c975fab3274e95b35d817da960",
+      "sha256": "1e2e65717f24c5497d42ddb9ec141d4b7d1c7649b3e94a739c1862129d7f7015",
       "size": 16215,
       "type": "pack-manifest"
     },
@@ -173,6 +173,6 @@
   ],
   "manifestAsset": "ashfall-standalone-engine-edition-beta-2.0.0-beta.2.pack.json",
   "artifactAsset": "ashfall-standalone-engine-edition-2.0.0-beta.2.zip",
-  "artifactSha256": "5abf89a929c8c818515c76a800708d58e1fb6d3610cb248f4c5ce2867a4b2fb8",
-  "artifactSize": 252791
+  "artifactSha256": "a9dd8b956e47a959dd4173f996a8ede80be102e6ff281c19d00720f6262f4407",
+  "artifactSize": 255102
 }

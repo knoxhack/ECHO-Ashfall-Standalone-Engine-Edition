@@ -1,0 +1,45 @@
+{
+  "schemaVersion": "echo.release_audit.v1",
+  "id": "ashfall-standalone-engine-edition",
+  "version": "2.0.0-beta.2",
+  "status": "PASS_WITH_WARNINGS",
+  "validation": "warning",
+  "checks": [
+    {
+      "id": "java-21-build",
+      "name": "Java 21 build",
+      "status": "PASS",
+      "evidence": "scripts/build.ps1 completed"
+    },
+    {
+      "id": "xlint-all-werror",
+      "name": "-Xlint:all -Werror",
+      "status": "PASS",
+      "evidence": "Engine, API, modules, and tests compiled with javac --release 21 -Xlint:all -Werror"
+    },
+    {
+      "id": "headless-smoke",
+      "name": "Headless smoke",
+      "status": "PASS",
+      "evidence": "Two deterministic --headless-smoke runs completed during engine build"
+    },
+    {
+      "id": "content-graph-evidence",
+      "name": "Content graph evidence",
+      "status": "PASS",
+      "evidence": "content-graph-evidence.json reports PASS with 12 modules and zero unresolved references"
+    },
+    {
+      "id": "adaptercore-audit",
+      "name": "AdapterCore audit",
+      "status": "PASS",
+      "evidence": "AdapterCore canonical runtime bridge reported ready in headless smoke"
+    },
+    {
+      "id": "gameplay-parity",
+      "name": "Gameplay parity",
+      "status": "NOT_CLAIMED",
+      "evidence": "Graph-first playable vertical slice only; full Ashfall parity remains future evidence"
+    }
+  ]
+}

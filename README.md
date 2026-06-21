@@ -7,7 +7,7 @@ This repo stages release assets and public docs for a side-by-side verification 
 ## Current Release
 
 ```text
-2.0.0-beta.2
+2.0.0-beta.5
 ```
 
 Staged assets:
@@ -18,8 +18,8 @@ release-assets/v2.0.0-ashfall-standalone-engine-edition-beta.5/
 
 Primary assets:
 
-- `ashfall-standalone-engine-edition-2.0.0-beta.2.zip`
-- `ashfall-standalone-engine-edition-beta-2.0.0-beta.2.pack.json`
+- `ashfall-standalone-engine-edition-2.0.0-beta.5.zip`
+- `ashfall-standalone-engine-edition-beta-2.0.0-beta.5.pack.json`
 - `checksums.txt`
 - `echo-release.json`
 - `release-audit.json`

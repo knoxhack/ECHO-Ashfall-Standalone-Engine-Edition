@@ -1,4 +1,2 @@
-77e7d78c6f65c52c8df5476d7f3929ac8c1b2fcd9582d49a0bf3a120bb01fa56  ashfall-standalone-engine-edition-2.0.0-beta.2.zip
-b6fd763f9a957ffe79aae93c1c1ebf327c4805340d2d8fc3ca23fc9c9978d08b  ashfall-standalone-engine-edition-beta-2.0.0-beta.2.pack.json
-bb3ce9909bf2888797efb1c04c4dfeeb1aa543c29abbab5dfef346544f20365c  echo-release.json
-245471f5fcca840722f6c356b364b8e1d14fda8ca97a97b1cca4f6ce34d9b6b5  release-audit.json
+8fa446993d239d98af5e5a4761ac700de02ddbed769a4547558621fc4027f2f8 *ashfall-standalone-engine-edition-2.0.0-beta.5.zip
+9bd81e015b6b9a3c87ce259ab89357cdd5934d9c9178be9584cc92e562f9d872 *ashfall-standalone-engine-edition-beta-2.0.0-beta.5.pack.json

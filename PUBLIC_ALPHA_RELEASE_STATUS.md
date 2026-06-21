@@ -23,6 +23,4 @@ This lane can move beyond warning status only after public release bytes, instal
 - AdapterCore audit: PASS
 - Full gameplay parity: NOT CLAIMED
 
-See `release-assets/v2.0.0-ashfall-standalone-engine-edition-beta/release-audit.json`.
-
-Latest staged expansion evidence is under `release-assets/v2.0.0-ashfall-standalone-engine-edition-beta.5/release-audit.json`.
+See `release-assets/v2.0.0-ashfall-standalone-engine-edition-beta.5/release-audit.json`.

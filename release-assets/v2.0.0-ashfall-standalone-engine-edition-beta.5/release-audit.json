@@ -1,7 +1,7 @@
 {
   "schemaVersion": "echo.release_audit.v1",
   "id": "ashfall-standalone-engine-edition",
-  "version": "2.0.0-beta.2",
+  "version": "2.0.0-beta.5",
   "releaseTag": "v2.0.0-ashfall-standalone-engine-edition-beta.5",
   "status": "PASS_WITH_WARNINGS",
   "validation": "warning",
@@ -10,7 +10,7 @@
       "id": "java-21-build",
       "name": "Java 21 build",
       "status": "PASS",
-      "evidence": "scripts/build.ps1 completed for ECHO-Standalone-Engine 759393c HealthCore expansion commit"
+      "evidence": "scripts/build.ps1 completed for ECHO-Standalone-Engine ca323c5889533b44ff04d9b6480118cbff12e8eb"
     },
     {
       "id": "xlint-all-werror",

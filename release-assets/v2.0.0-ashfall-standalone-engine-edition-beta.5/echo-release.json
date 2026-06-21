@@ -2,7 +2,7 @@
   "schemaVersion": "echo.release.v1",
   "id": "ashfall-standalone-engine-edition",
   "name": "Ashfall Standalone Engine Edition",
-  "version": "2.0.0-beta.2",
+  "version": "2.0.0-beta.5",
   "releaseTag": "v2.0.0-ashfall-standalone-engine-edition-beta.5",
   "channel": "beta",
   "validation": "warning",
@@ -13,41 +13,41 @@
     "productId": "echo-standalone-engine",
     "sourceRepo": "knoxhack/ECHO-Standalone-Engine",
     "releaseTag": "v2.0.0-standalone-engine-beta.5",
-    "commitSha": "759393ce7c1411fb837a4a687f0196f2b72c3b30",
-    "sourceRevision": "ECHO-Standalone-Engine 759393ce7c1411fb837a4a687f0196f2b72c3b30, 2026-06-20",
+    "commitSha": "ca323c5889533b44ff04d9b6480118cbff12e8eb",
+    "sourceRevision": "ECHO-Standalone-Engine ca323c5889533b44ff04d9b6480118cbff12e8eb, 2026-06-21",
     "artifact": {
-      "file": "echo-standalone-engine-2.0.0-beta.2.jar",
-      "sha256": "cbbfa56678165704aaa6c1bff6013bc1c18f299f06b60ed0d2da2ef1a29bea7c",
-      "size": 203765
+      "file": "echo-standalone-engine-2.0.0-beta.5.jar",
+      "sha256": "431ebdd069b3017462b4158a49ec29bfe3e2e771a54851598f0f988845144926",
+      "size": 228016
     },
     "apiArtifact": {
-      "file": "echo-engine-api-2.0.0-beta.2.jar",
-      "sha256": "3c2bf9fa07a8c71b3146c3a3a66197ff0c61e41efa2d640b9193681191b5536a",
-      "size": 31989
+      "file": "echo-engine-api-2.0.0-beta.5.jar",
+      "sha256": "4ddd02d4a38fd5e8b44bb218e635e3aed4fb5ce863cf4f9718ef6586117b1855",
+      "size": 32352
     }
   },
   "runtime": {
     "id": "echo-standalone-engine",
     "target": "echo_runtime_standalone",
-    "version": "2.0.0-beta.2",
+    "version": "2.0.0-beta.5",
     "requiredJava": "21+"
   },
   "artifacts": {
     "pack": {
-      "file": "ashfall-standalone-engine-edition-2.0.0-beta.2.zip",
-      "sha256": "77e7d78c6f65c52c8df5476d7f3929ac8c1b2fcd9582d49a0bf3a120bb01fa56",
-      "size": 279755,
+      "file": "ashfall-standalone-engine-edition-2.0.0-beta.5.zip",
+      "sha256": "8fa446993d239d98af5e5a4761ac700de02ddbed769a4547558621fc4027f2f8",
+      "size": 303885,
       "type": "zip"
     },
     "manifest": {
-      "file": "ashfall-standalone-engine-edition-beta-2.0.0-beta.2.pack.json",
-      "sha256": "b6fd763f9a957ffe79aae93c1c1ebf327c4805340d2d8fc3ca23fc9c9978d08b",
+      "file": "ashfall-standalone-engine-edition-beta-2.0.0-beta.5.pack.json",
+      "sha256": "9bd81e015b6b9a3c87ce259ab89357cdd5934d9c9178be9584cc92e562f9d872",
       "size": 23494,
       "type": "pack-manifest"
     },
     "contentGraphEvidence": {
       "file": "content-graph-evidence.json",
-      "sha256": "d873337a323d29925d4b8e4f3ec0e94b995a3d08f993e7fe722f8869bca76dc9",
+      "sha256": "b04cc6e794ade9ff5eb3bb97073ca289df16e030c24f3b4f7fb48464bf51c0b8",
       "size": 8417,
       "status": "PASS",
       "modules": 19,
@@ -57,8 +57,8 @@
     },
     "installedChecksums": {
       "file": "checksums.sha256",
-      "sha256": "ac98c8749bc6ca725bde53a933c7a85d3fc3054a944cd8a16dd9c47dc44e0854",
-      "size": 2571
+      "sha256": "c51c8cef5cdf6046ae0fe9fe42e51e3e4d0fdc3ad54ce80dc67aa43ec88cce9e",
+      "size": 2745
     }
   },
   "graphEvidence": {
@@ -273,8 +273,8 @@
       "required": true
     }
   ],
-  "manifestAsset": "ashfall-standalone-engine-edition-beta-2.0.0-beta.2.pack.json",
-  "artifactAsset": "ashfall-standalone-engine-edition-2.0.0-beta.2.zip",
-  "artifactSha256": "77e7d78c6f65c52c8df5476d7f3929ac8c1b2fcd9582d49a0bf3a120bb01fa56",
-  "artifactSize": 279755
+  "manifestAsset": "ashfall-standalone-engine-edition-beta-2.0.0-beta.5.pack.json",
+  "artifactAsset": "ashfall-standalone-engine-edition-2.0.0-beta.5.zip",
+  "artifactSha256": "8fa446993d239d98af5e5a4761ac700de02ddbed769a4547558621fc4027f2f8",
+  "artifactSize": 303885
 }
